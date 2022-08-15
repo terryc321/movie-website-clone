@@ -1,0 +1,314 @@
+
+* {
+    margin: 0 ;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+    font: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    /*
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+   */
+    box-sizing: border-box;
+}
+
+/* auto margin calculates */
+.container {
+    display: block;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*
+    margin-left: 20px;
+    margin-right: 20px;
+    */
+    /*margin-left: 200px;*/
+    
+    /*
+    width: 70%;
+    margin: 0 auto;
+   */
+
+    }
+
+
+.header {
+
+    /* border: 3px solid green; */
+    border: 1px solid white;
+    
+    
+    
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    }
+
+.header img {
+    width: 40px;
+    height: 40px;
+    margin: 0 0px;
+}
+
+.header .navbar {
+}
+
+.header .navbar a {
+    padding: 0px 20px;
+    }
+
+/* remove underline from links */
+.header a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.header a:hover {
+    text-decoration: none;
+    cursor: pointer; 
+}
+
+.banner {
+    /* border: 3px solid blue; */
+    border: 1px solid black ;
+
+    
+    /* border: 1px; */
+    height: 460px;
+    
+    /*
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+   */
+    
+    background-image: url("../images/home.jpg");
+    /* background: #cccccc; */
+}
+
+
+.banner-inner {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: none;
+    justify-content: center;
+}
+
+.banner .banner-logo {
+    width: 80px;
+    height: 80px;
+    display: block; 
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    }
+
+
+.banner h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.banner a {
+    text-decoration: none;
+    text-align: center;
+    display: block; 
+    margin: 0 auto;
+    width: 20%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+
+    background-color:  rgb(212, 31, 28);
+    padding: 16px;
+    border: 0px;
+    border-radius: 30px;
+    margin-top: 30px;
+    
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    /* width: 100%; */
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* border: 5px dashed red; */
+    /* background: blue; */
+
+/*    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  */  
+    
+    }
+
+.search input {
+     height: 50px; 
+  /*  width: 100%; */
+    font-size: 18px;
+    /* margin-left: 100px;*/
+    border: none;
+    flex-grow: 10;
+    
+}
+
+.search input:focus {
+    border: none;
+    outline: none;
+    }
+
+.search img {
+    height: 50px;
+    width: 10px;
+    flex-basis: 10%;
+    max-width: 60px;
+    min-width: 60px;
+    /*flex-grow: 0;*/
+}
+
+
+.blurb {
+    margin-top: 50px;
+    }
+
+.blurb h3 {
+    margin-top: 20px;
+}
+
+.blurb h4 {
+    margin-top: 20px;
+}
+
+
+.blublist {
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    }
+
+.blublist h3 {
+    /* border: 3px solid green; */
+    
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.blublist p {
+    margin-top: 0px;
+    
+    }
+
+.bottom-link a {
+    text-decoration: none;
+    text-align: center;
+    display: block; 
+    margin: 0 auto;
+    width: 20%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+
+    background-color:  rgb(212, 31, 28);
+    padding: 16px;
+    border: 0px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+    
+}
+
+.bottom-nav {
+    margin-top: 30px;    
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.bottom-nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+.bottom-nav a:hover {
+    color: red;
+}
+
+.bottom-text {
+    /* opacity: 60%; */
+    color: #999;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size:12px;
+}
+
+
+
+.container .copyright {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    color: #000;
+    background: #fff;
+    font-weight: normal;
+    opacity: 100%;
+    }
+
+
+
+
+
+
+
+
+/* no footer 
+.footer {
+    height: 300px;
+    background: #ccc;
+    color: #fff;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+  
